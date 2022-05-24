@@ -1,0 +1,46 @@
+body {
+    background-color: lavender;
+}
+
+h2, h3, h4, h5 {
+    text-align: center;
+}
+
+#timer-note {
+    font-weight: normal;
+    font-size: medium;
+}
+
+div {
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    background-color: green;
+}
+
+button:hover {
+    box-shadow: 3px 3px grey;
+}
+
+li {
+    border: 2px;
+    border-style: dashed;
+    border-radius: 2px;
+    background-color: lightgreen;
+    margin: 5px;
+}
+
+li:hover {
+    border: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    background-color: green;
+    font-weight: bold;
+}
